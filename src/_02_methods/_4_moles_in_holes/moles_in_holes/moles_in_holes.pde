@@ -18,8 +18,9 @@ void setup() {
 void draw() {
 
 /* Write code here that uses the drawMole method to put a mole in each of the holes */
-
-
+  if(drawMole(moleX, MoleY).eqauls(ellipse)){
+    drawMole();
+  }
 }
 
 void drawMole(int moleX, int moleY) {
@@ -34,4 +35,3 @@ void drawMole(int moleX, int moleY) {
      ellipse(moleX, moleY-5, 10, 10); // nose
      ellipse(moleX, moleY+10, 20, 5); // mouth
 }
-

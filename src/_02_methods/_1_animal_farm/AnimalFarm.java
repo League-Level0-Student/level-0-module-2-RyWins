@@ -30,7 +30,25 @@ public class AnimalFarm {
 		*/			 
 			
 		/* 2. Make it so that the user can keep entering new animals. */
-
+			for(;;) {
+			String Animal = JOptionPane.showInputDialog("What Animal do you want to hear?");
+			if(Animal.equals("cow")){
+			moo();
+			}
+			if(Animal.equals("duck")) {
+				quack();
+			}
+			if(Animal.equals("dog")) {
+				woof();
+			}
+			if(Animal.equals("cat")) {
+				meow();
+			}
+			if(Animal.equals("llama")) {
+				llamaScream();
+			}
+			}
+			
 	}
 
 	void moo() {
