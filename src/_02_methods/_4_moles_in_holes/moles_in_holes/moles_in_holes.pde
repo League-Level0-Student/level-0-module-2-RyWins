@@ -18,10 +18,13 @@ void setup() {
 void draw() {
 
 /* Write code here that uses the drawMole method to put a mole in each of the holes */
-  if(drawMole(moleX, MoleY).eqauls(ellipse)){
-    drawMole();
+  
+  drawMole(70, 119);
+  drawMole(200, 200);
+  drawMole(297, 350);
+  drawMole(300, 60);
   }
-}
+
 
 void drawMole(int moleX, int moleY) {
      noStroke();
